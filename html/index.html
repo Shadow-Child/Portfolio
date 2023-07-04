@@ -8,22 +8,20 @@
     <title>Project Portfolio</title>
 </head>
 <body>
-    <nav class="container navbar navbar-expand-lg navbar-light bg-light">
-        <div class="col-8"><h2>Ben Tekaya Iyadh</h2></div>
-        <div class="col-4 class="collapse navbar-collapse" id="navbarNav"">
+    <nav class="container navbar navbar-expand-lg navbar-light bg-secondary navbar-fixed-top">
+        <div class="col-8"><h2 class="text-white">Ben Tekaya Iyadh</h2></div>
+        <div class="col-4 collapse navbar-collapse" id="navbarNav">
              <ul class="navbar-nav">
-                 <li class="nav-item active"><a class="nav-link" href="#">About Me</a></li>
-                 <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
-                 <li class="nav-item"><a class="nav-link" href="#">Skills</a></li>
-                 <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                 <li class="nav-item active"><a class="nav-link text-white" href="#About-Me">About Me</a></li>
+                 <li class="nav-item "><a class="nav-link text-white" href="#Projects">Projects</a></li>
+                 <li class="nav-item "><a class="nav-link text-white" href="#Skills">Skills</a></li>
+                 <li class="nav-item "><a class="nav-link text-white" href="#">Contact</a></li>
              </ul>
         </div>
-        <br>
     </nav>
-    <br> 
-    <main class="container">
-    <div class="row">
-    <div class="About-me col-8">
+    <main class="container bg-light">
+    <div class="section  row">
+    <div class="col-8" id="About-Me">
         <h3>About Me</h3>
         <p>Hi! I am Ben Tekaya Iyadh i am a Tunisian 23 years old teenager I am a A civil engineer with an impressive track record in directing technical projects. I bring the skills and knowledge necessary to oversee your next project. With my proficiency in engineering principles and Project Management methodologies, I can ensure that your project is completed on time and within budget. My goal is always to optimize workflow for greater efficiency and collective success. </p>
         </div>
@@ -32,7 +30,7 @@
     </div>
     </div>
     <br>
-    <div class="Projects">
+    <div class="section" id="Projects">
         <h3>Projects</h3>
         <ul>
             <li>Stadium of Kniss: Retaining wall.</li>
@@ -42,29 +40,29 @@
         <br>
     </div>
     
-    <div class="Skill">
+    <div class="section" id="Skills">
         <h3>Skills</h3>
         <div class="row ">
-        <div class="AutoCad text-center col ">
-            <div></div>
+        <div class="AutoCad text-center col-4 ">
+            <div><img class="Logos" src="../imgs/Autocad_(12).png" alt="Logo Autocad"></div>
             <h4>Autocad</h4>
         </div>
 
-        <div class="Revit text-center col">
-            <div></div>
+        <div class="Arch text-center col-4">
+            <div class="container"><img class="Logos" src="../imgs/graitec-vector-logo.png" alt="logo Graitec Arche"></div>
+            <h4>Arche</h4>
+        </div>
+
+        <div class="Revit text-center col-4">
+            <div><img class="Logos" src="../imgs/Revit.png" alt="Logo Revit"></div>
             <h4>Revit</h4>
         </div>
 
-        <div class="Arch text-center col">
-            <div></div>
-            <h4>Arch</h4>
-        </div>
     </div>
-        <br>
     </div>
 </main>
 </body>
-<footer>
+<footer class="container text-center bg-secondary text-white">
     <span>Made with LOVE in Tunisia</span>
 </footer>
 </html>

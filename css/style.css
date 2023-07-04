@@ -1,3 +1,35 @@
+html{
+    scroll-behavior: smooth;
+}
 .my-portrait{
     width: 100%;
+}
+
+.Logos{
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: padding-top 0.5s, padding-bottom 0.5s;
+}
+.Logos:hover{
+    padding-top: 0;
+    padding-bottom: 0;   
+}
+
+.section{
+    margin-bottom:5%;
+}
+
+nav{
+    position: fixed;
+}
+
+footer{
+    height: 50px;
+}
+
+
+main{
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
